@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
  </head>   
     <body>
-        <form>
+              <form>
             <input type="text" placeholder="Фамилия" />
             <input type="text" placeholder="Имя" />
             <input type="text" placeholder="Отчество" />
@@ -13,8 +13,8 @@
         
         <form>
             <input type="number" placeholder="Число" />
-                <input type="checkbox" />
-                Без отчества
+            <label><input type="checkbox" />
+                Без отчества</label>
             <input type="submit" value="Ок" />
         </form>
         
@@ -22,10 +22,8 @@
         <form>
             <p>
                 <span>Пол: </span>
-                <input name="pol" type="radio" required />
-                <span>М</span>
-                <input name="pol" type="radio" required />
-                <span>Ж</span>
+                <label><input name="pol" type="radio" required />М</label>
+                <label><input name="pol" type="radio" required/>Ж</label>
             </p>
             <p>Фамилия: <input type="text" required minlength="3" /></p>
             <p>Имя: <input type="text" required minlength="3" /></p>
@@ -43,7 +41,7 @@
             </p>
             <p>Пароль: <input type="password" required /></p>
             <p>Еще раз: <input type="password" required /></p>
-                <input type="checkbox" required />На платной основе
+            <label><input type="checkbox" required />На платной основе</label>
             <input type="submit" value="Зарегистрироваться" />
         </form>
     </body>
